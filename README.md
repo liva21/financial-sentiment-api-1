@@ -231,3 +231,4 @@ Test Seti (227 örnek):
 **Liva Nur  Karanfil**
 
 
+# financial-sentiment-api
