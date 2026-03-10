@@ -1,0 +1,11 @@
+# API için gerekli minimum bağımlılıklar
+torch>=2.2.0
+transformers>=4.40.0
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic>=2.0
+numpy<2.0.0
+streamlit==1.31.0
+plotly==5.18.0
+langdetect==1.0.9
+sentencepiece

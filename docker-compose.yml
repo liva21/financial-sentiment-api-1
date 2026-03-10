@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: financial-sentiment-api
+    ports:
+      - "8000:8000"
+    shm_size: '2gb'
+    volumes:
+      - ./models:/app/models
+    environment:
+      - MODEL_DIR=/app/models/finbert-finetuned
+      - MAX_LENGTH=128
+      - PYTHONUNBUFFERED=1
+      - LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
+    restart: always
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: financial-sentiment-dashboard
+    command: streamlit run src/dashboard.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8502:8501"
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      - api
+    restart: always

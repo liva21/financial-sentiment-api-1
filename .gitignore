@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data
+data/
+*.csv
+*.png
+
+# Model — çok büyük (1GB+), GitHub'a koymuyoruz
+models/
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
