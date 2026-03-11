@@ -28,7 +28,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements-api.txt
         pip install -r requirements.txt
-        pip install pytest pytest-asyncio httpx pandas tabulate
+        pip install pytest pytest-asyncio httpx pandas tabulate huggingface_hub
+
+    - name: Download Model Weights
+      run: |
+        huggingface-cli download --repo-type space Liva21/financial-sentiment-api --include "models/finbert-finetuned/*" --local-dir .
 
     - name: Start API Server
       run: |
