@@ -31,8 +31,11 @@ jobs:
         pip install pytest pytest-asyncio httpx pandas tabulate huggingface_hub
 
     - name: Download Model Weights
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
       run: |
-        huggingface-cli download --repo-type space Liva21/financial-sentiment-api --include "models/finbert-finetuned/*" --local-dir .
+        python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='Liva21/financial-sentiment-api', repo_type='space', allow_patterns='models/finbert-finetuned/*', local_dir='.', token='${HF_TOKEN}')"
+
 
     - name: Start API Server
       run: |
