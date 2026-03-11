@@ -12,8 +12,8 @@ pinned: false
 
 # Financial Sentiment Analysis API
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://liva21-financial-sentiment.hf.space)
-[![Evaluation](https://github.com/liva21/financial-sentiment-api-1/actions/workflows/eval.yml/badge.svg)](https://github.com/liva21/financial-sentiment-api-1/actions/workflows/eval.yml)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://huggingface.co/spaces/Liva21/financial-sentiment-api)
+[![Evaluation](https://github.com/liva21/financial-sentiment-api/actions/workflows/eval.yml/badge.svg)](https://github.com/liva21/financial-sentiment-api/actions/workflows/eval.yml)
 
 An API and web interface for analyzing financial text sentiment using FinBERT.
 
