@@ -1,0 +1,182 @@
+[
+    {
+        "id": "pos_01",
+        "text": "The company reported a record-breaking 45% increase in Q3 net revenue.",
+        "expected_sentiment": "positive",
+        "category": "clear_positive"
+    },
+    {
+        "id": "pos_02",
+        "text": "Şirketin net kârı bir önceki yıla göre beklentileri aşarak %25 arttı.",
+        "expected_sentiment": "positive",
+        "category": "clear_positive"
+    },
+    {
+        "id": "pos_03",
+        "text": "Dividends were raised by 10 cents per share, signaling strong cash flow.",
+        "expected_sentiment": "positive",
+        "category": "clear_positive"
+    },
+    {
+        "id": "pos_04",
+        "text": "New partnership with major tech giants will significantly boost our market share.",
+        "expected_sentiment": "positive",
+        "category": "clear_positive"
+    },
+    {
+        "id": "pos_05",
+        "text": "Hisse senedi fiyatı tarihin en yüksek seviyesini görerek rekor kırdı.",
+        "expected_sentiment": "positive",
+        "category": "clear_positive"
+    },
+    {
+        "id": "neg_01",
+        "text": "Operating earnings plunged 50% due to supply chain disruptions.",
+        "expected_sentiment": "negative",
+        "category": "clear_negative"
+    },
+    {
+        "id": "neg_02",
+        "text": "Enflasyon oranlarının artmasıyla birlikte tüketici harcamaları sert bir düşüş yaşadı.",
+        "expected_sentiment": "negative",
+        "category": "clear_negative"
+    },
+    {
+        "id": "neg_03",
+        "text": "The CEO resigned unexpectedly following allegations of financial fraud.",
+        "expected_sentiment": "negative",
+        "category": "clear_negative"
+    },
+    {
+        "id": "neg_04",
+        "text": "Hisse senedi değerlendirmesinde 'sat' notu alan bankanın hisseleri taban yaptı.",
+        "expected_sentiment": "negative",
+        "category": "clear_negative"
+    },
+    {
+        "id": "neg_05",
+        "text": "Massive layoffs were announced to cut costs in the failing division.",
+        "expected_sentiment": "negative",
+        "category": "clear_negative"
+    },
+    {
+        "id": "neu_01",
+        "text": "The board of directors will hold their annual general meeting on Tuesday.",
+        "expected_sentiment": "neutral",
+        "category": "clear_neutral"
+    },
+    {
+        "id": "neu_02",
+        "text": "Şirket merkezini İstanbul'dan Ankara'ya taşıyacağını duyurdu.",
+        "expected_sentiment": "neutral",
+        "category": "clear_neutral"
+    },
+    {
+        "id": "neu_03",
+        "text": "The standard interest rate remains at 5.25% for the next quarter.",
+        "expected_sentiment": "neutral",
+        "category": "clear_neutral"
+    },
+    {
+        "id": "neu_04",
+        "text": "Bu yılki mali raporların denetimi bağımsız bir kuruluş tarafından yapılacak.",
+        "expected_sentiment": "neutral",
+        "category": "clear_neutral"
+    },
+    {
+        "id": "neu_05",
+        "text": "A new CEO has been appointed to step in next month.",
+        "expected_sentiment": "neutral",
+        "category": "clear_neutral"
+    },
+    {
+        "id": "amb_01",
+        "text": "While revenues increased by 5%, operating costs also jumped significantly.",
+        "expected_sentiment": "neutral",
+        "category": "ambiguous"
+    },
+    {
+        "id": "amb_02",
+        "text": "Satışlar beklentilerin altında kalsa da kârlılık oranları hedefleri tutturdu.",
+        "expected_sentiment": "neutral",
+        "category": "ambiguous"
+    },
+    {
+        "id": "amb_03",
+        "text": "The stock market had a mixed reaction to the recent federal announcements.",
+        "expected_sentiment": "neutral",
+        "category": "ambiguous"
+    },
+    {
+        "id": "amb_04",
+        "text": "Şirketin büyümesi yavaşladı ancak nakit akışı hala çok güçlü.",
+        "expected_sentiment": "neutral",
+        "category": "ambiguous"
+    },
+    {
+        "id": "amb_05",
+        "text": "We will wait and see how the market reacts before making further investments.",
+        "expected_sentiment": "neutral",
+        "category": "ambiguous"
+    },
+    {
+        "id": "mix_01",
+        "text": "Q4 revenue was massive, dolayısıyla şirketin geleceği çok parlak görünüyor.",
+        "expected_sentiment": "positive",
+        "category": "mixed_language"
+    },
+    {
+        "id": "mix_02",
+        "text": "The CEO said 'Durum çok kötü', causing stock prices to plummet immediately.",
+        "expected_sentiment": "negative",
+        "category": "mixed_language"
+    },
+    {
+        "id": "mix_03",
+        "text": "Merkez bankası inflation policy remains unchanged.",
+        "expected_sentiment": "neutral",
+        "category": "mixed_language"
+    },
+    {
+        "id": "mix_04",
+        "text": "Strong EBITDA büyümesi yatırımcıları sevindirdi.",
+        "expected_sentiment": "positive",
+        "category": "mixed_language"
+    },
+    {
+        "id": "mix_05",
+        "text": "Supply chain issues nedeniyle teslimatlar gecikti, causing a major drop in sales.",
+        "expected_sentiment": "negative",
+        "category": "mixed_language"
+    },
+    {
+        "id": "jar_01",
+        "text": "The company's EBIT margin expanded by 200 bps year-over-year.",
+        "expected_sentiment": "positive",
+        "category": "financial_jargon"
+    },
+    {
+        "id": "jar_02",
+        "text": "Hisse senedi Bollinger Bantlarının alt bandını kırarak aşırı satım bölgesine girdi.",
+        "expected_sentiment": "negative",
+        "category": "financial_jargon"
+    },
+    {
+        "id": "jar_03",
+        "text": "We are initiating coverage with an outperform rating and a $50 price target.",
+        "expected_sentiment": "positive",
+        "category": "financial_jargon"
+    },
+    {
+        "id": "jar_04",
+        "text": "Beta katsayısı yüksek olan hisselerin risk primi giderek artış gösteriyor.",
+        "expected_sentiment": "negative",
+        "category": "financial_jargon"
+    },
+    {
+        "id": "jar_05",
+        "text": "The firm executed a 2-for-1 stock split to increase liquidity.",
+        "expected_sentiment": "neutral",
+        "category": "financial_jargon"
+    }
+]
